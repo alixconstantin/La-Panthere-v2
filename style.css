@@ -1056,6 +1056,9 @@ h4 {
         display: flex;
         justify-content: space-around;
     }
+    .img-text{
+        width:90%;
+    }
 }
 
 .nav a {
