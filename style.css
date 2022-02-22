@@ -709,6 +709,7 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    margin-top: 35px;
 }
 
 h2 {
@@ -1045,9 +1046,30 @@ h4 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+        
+    }
+    .titleLink{
+        margin-left:20px;
+        margin-top:30px;
     }
 }
 
 .nav a {
     color:black;
+}
+
+.linkContainer {
+    margin-top: 35px;
+}
+.bottomLinkContainer {
+    margin-top: 48px;
+}
+
+.bottomLink {
+    margin-top:25px;
+    list-style-type : none;
+}
+
+.titleLink{
+    font-weight: bold;
 }
