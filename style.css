@@ -17,7 +17,14 @@ a:hover {
     text-decoration: none;
     cursor: pointer;
 }
+.keywords {
+    color:red!important;
+    display:none;
+}
 
+label {
+    color: black !important;;
+}
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -651,7 +658,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #ffffff;
 }
 
 .container {
@@ -771,15 +778,15 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #da6028;
+    background-color: rgb(148,54,11);
 }
 
 .tc-white {
-    color: #da6028!important;
+    color: #F3976C!important;
 }
 
 .btn-atomic-tangerine {
-    background: #da6028;
+    background: rgb(148,54,11);
     color: #FFFFFF!important;
 }
 
@@ -797,11 +804,11 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #da6028!important;
+    color: #F3976C!important;
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #da6028!important;
+    color: #c27956!important;
 }
 
 .icon-dark-slate-blue {
@@ -1039,4 +1046,8 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+.nav a {
+    color:black;
 }
