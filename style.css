@@ -1084,3 +1084,13 @@ h4 {
 .text-center {
     color:black;
 }
+
+.text-description{
+    color:rgb(91, 75, 75)!important;
+    font-size: 20px;
+    word-spacing:-2px;
+}
+
+.maxime_guibard{
+    font-weight: 200;
+}
